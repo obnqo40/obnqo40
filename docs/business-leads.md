@@ -6,7 +6,7 @@
 
 [Демо ↗](https://business-leads-template.vercel.app/) · [Исходный код](https://github.com/obnqo40/business-leads-template)
 
-![Главная страница Business Leads — демонстрационная конфигурация Fresh Cut](../assets/business-leads.jpg)
+![Главная страница Business Leads — демонстрационная конфигурация Fresh Cut](../assets/studio/cover-business.png)
 
 ## Задача
 

@@ -6,7 +6,7 @@
 
 [Открыть демо ↗](https://obnqo40.github.io/zao_mys/) · [Исходный код](https://github.com/obnqo40/zao_mys) · [Запуск локально](https://github.com/obnqo40/zao_mys#запуск)
 
-[![Главная страница демо ЗАО «МЫС»](../assets/zao-mys.jpg)](https://obnqo40.github.io/zao_mys/)
+[![Главная страница демо ЗАО «МЫС»](../assets/studio/cover-zao.png)](https://obnqo40.github.io/zao_mys/)
 
 ## Задача
 

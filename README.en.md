@@ -1,75 +1,95 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/hero-dark.svg">
-  <img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/hero-light.svg" alt="Dmitry / obnqo40 — Full-stack developer. Web, automation, Android." width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/hero-light.svg" alt="Dmitry / OBNQO — full-stack developer. Web, automation, Android." width="100%">
 </picture>
 
-# Hi, I'm Dmitry
+<p align="center"><strong>Dmitry · Full-stack / Backend Developer</strong><br>Web applications, Python tools, and Android prototypes built around real workflows.</p>
 
-**Full-stack / Backend Developer** working on web applications, Python automation, and Android.
+<p align="center">
+  <a href="docs/demos.md"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/nav-demos-en.svg" width="170" height="44" alt="Live demos"></a>
+  <a href="docs/code-tour.md"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/nav-code-en.svg" width="170" height="44" alt="Code and decisions"></a>
+  <a href="docs/projects.md"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/nav-projects-en.svg" width="170" height="44" alt="All projects"></a>
+</p>
+<p align="center"><a href="README.md">Русская версия</a></p>
 
-I turn everyday workflows into applications: service bookings, school schedules, warehouse picking, and community tools. My projects connect interfaces, data, and external APIs, with attention to failure handling and useful documentation.
+<p align="center"><strong>Open in your browser:</strong> <a href="https://business-leads-template.vercel.app/">Business Leads ↗</a> · <a href="https://obnqo40.github.io/zao_mys/">ZAO MYS ↗</a> · <a href="https://moe-raspisanie.vercel.app/">Moe Raspisanie ↗</a></p>
 
-[Русская версия](README.md) · [Project catalog](docs/projects.md) · [Code tour (RU)](docs/code-tour.md)
+## Selected projects
 
-## Explore live demos
+Interfaces, logic, and data brought together around a specific task.
 
-**[Business Leads ↗](https://business-leads-template.vercel.app/)** · **[ZAO MYS ↗](https://obnqo40.github.io/zao_mys/)** · **[Moe Raspisanie ↗](https://moe-raspisanie.vercel.app/)**
+### 01 · Business Leads
 
-[All verified addresses and alternate hosting (RU)](docs/demos.md)
+<a href="https://business-leads-template.vercel.app/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/cover-business.png" alt="Business Leads — service-business website with validated lead intake and independent delivery channels" width="100%"></a>
 
-## Selected public projects
+One configuration defines the website content. The server validates leads and independently attempts delivery through Telegram, MAX, email, and Google Sheets. One failed channel does not stop the others.
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>01 / Business Leads</h3>
-      <a href="https://business-leads-template.vercel.app/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/business-leads.jpg" alt="Business Leads demo: Fresh Cut configuration" width="100%"></a>
-      <p>Configurable service-business website with server-side validation and independent delivery adapters for Telegram, MAX, email, and Google Sheets.</p>
-      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code></p>
-      <p><strong><a href="https://business-leads-template.vercel.app/">Live demo ↗</a></strong> · <a href="https://github.com/obnqo40/business-leads-template">Source</a> · <a href="docs/business-leads.md">Case study (RU)</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>02 / ZAO MYS</h3>
-      <a href="https://obnqo40.github.io/zao_mys/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/zao-mys.jpg" alt="ZAO MYS industrial website demo" width="100%"></a>
-      <p>Multi-page industrial website frontend with a product catalog, image galleries, company information, quality documents, and shared interactions.</p>
-      <p><code>HTML / CSS</code> <code>JavaScript</code> <code>Alpine.js</code></p>
-      <p><strong><a href="https://obnqo40.github.io/zao_mys/">Live demo ↗</a></strong> · <a href="https://github.com/obnqo40/zao_mys">Source</a> · <a href="docs/zao-mys.md">Case study (RU)</a></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>03 / Moe Raspisanie</h3>
-      <a href="https://moe-raspisanie.vercel.app/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/scheduling.jpg" alt="Moe Raspisanie scheduling application demo" width="100%"></a>
-      <p>School schedules, conflict checks, Excel import/export, IndexedDB, and a PWA shell. Educational V1; server authentication is planned for V2.</p>
-      <p><code>JavaScript</code> <code>IndexedDB</code> <code>PWA</code></p>
-      <p><strong><a href="https://moe-raspisanie.vercel.app/">Live demo ↗</a></strong> · <a href="https://obnqo40.github.io/Moe-raspisanie/">GitHub Pages</a> · <a href="https://github.com/obnqo40/Moe-raspisanie">Source</a></p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>04 / Full-stack Lab</h3>
-      <a href="https://github.com/obnqo40/full-stack-lab#readme"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/full-stack-lab.svg" alt="Lab diagram: Nginx routes requests to two static-page containers; PostgreSQL runs separately" width="100%"></a>
-      <p>Nginx load balancing across two static-page containers and a separate PostgreSQL service. A local Docker Compose learning environment.</p>
-      <p><code>Docker Compose</code> <code>Nginx</code> <code>PostgreSQL</code></p>
-      <p><strong><a href="https://github.com/obnqo40/full-stack-lab#запуск">Local setup →</a></strong> · <a href="https://github.com/obnqo40/full-stack-lab">Source</a></p>
-    </td>
-  </tr>
-</table>
+`Next.js` `React` `TypeScript` `API Routes`
 
-## Local development case studies
+**[Live demo ↗](https://business-leads-template.vercel.app/)** &nbsp; · &nbsp; [Source](https://github.com/obnqo40/business-leads-template) &nbsp; · &nbsp; [Architecture (RU)](docs/business-leads.md)
 
-These write-ups describe local implementations. Their source code is not published in this profile repository.
+### 02 · ZAO MYS
 
-- **[Skladmen WMS](docs/skladmen.md)** — Kotlin, Jetpack Compose, Room, Hilt; warehouse orders, CSV import/export, barcode lookup, and picking progress.
-- **[MAXGRAM](docs/maxgram.md)** — an independent fork of the open-source Telegram Android client; custom themes, navigation, and local tools. Upstream attribution is part of the case study.
-- **[Vanta Market](docs/automation.md#vanta-market)** — asynchronous bots sharing SQLite stock; order and payment states, delivery reconciliation, and operational checks.
-- **[SWAGA BOT](docs/automation.md#swaga-bot)** — Discord voice-room lifecycle, permission management, and restart recovery.
-- **[VK Consent Monitor](docs/automation.md#vk-consent-monitor)** — an official-API status monitor restricted to an explicit list of consented profiles.
+<a href="https://obnqo40.github.io/zao_mys/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/cover-zao.png" alt="ZAO MYS — industrial website frontend with a product catalog, galleries and documents" width="100%"></a>
 
-## Technology
+Multi-page industrial website frontend with a product catalog, media galleries, and documents. Shared styling and browser interactions connect the company, quality, news, and contact pages.
 
-`TypeScript` `React` `Next.js` `Python` `asyncio` `Kotlin` `Java` `Compose` `SQLite` `Docker Compose` `Nginx`
+`HTML / CSS` `JavaScript` `Alpine.js` `Tailwind CSS`
 
-I value clear component boundaries, input validation, durable state, and documentation that distinguishes implemented behavior from future work.
+**[Live demo ↗](https://obnqo40.github.io/zao_mys/)** &nbsp; · &nbsp; [Source](https://github.com/obnqo40/zao_mys) &nbsp; · &nbsp; [Case study (RU)](docs/zao-mys.md)
 
----
+### 03 · Moe Raspisanie
 
-Find the relevant [repository](https://github.com/obnqo40?tab=repositories) and open an issue to discuss a project.
+<a href="https://moe-raspisanie.vercel.app/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/cover-schedule.png" alt="Moe Raspisanie — educational V1 with schedules, conflict checks, Excel and browser-local storage" width="100%"></a>
+
+Lesson editing, conflict checks, schedule generation, and Excel import/export. Educational V1 stores data in the browser; server authentication is planned for V2.
+
+`JavaScript` `IndexedDB` `Excel` `PWA`
+
+**[Live demo ↗](https://moe-raspisanie.vercel.app/)** &nbsp; · &nbsp; [GitHub Pages](https://obnqo40.github.io/Moe-raspisanie/) &nbsp; · &nbsp; [Source](https://github.com/obnqo40/Moe-raspisanie) &nbsp; · &nbsp; [Case study (RU)](docs/scheduling.md)
+
+### 04 · Full-stack Lab
+
+<a href="https://github.com/obnqo40/full-stack-lab#readme"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/cover-lab.png" alt="Full-stack Lab — Nginx routes requests to two static-page containers; PostgreSQL runs separately" width="100%"></a>
+
+A local Docker Compose lab. Nginx routes requests to two static-page containers, while PostgreSQL runs as a separate service for experiments.
+
+`Docker Compose` `Nginx` `PostgreSQL`
+
+**[Local setup →](https://github.com/obnqo40/full-stack-lab#запуск)** &nbsp; · &nbsp; [Source](https://github.com/obnqo40/full-stack-lab) &nbsp; · &nbsp; [Code tour (RU)](docs/code-tour.md#4-как-запрос-попадает-в-один-из-контейнеров)
+
+## Beyond the web
+
+Local Android and Python developments complement the public web projects. Their case studies describe the implementation and its limits; their source code is not published in this profile repository.
+
+<p align="center">
+  <a href="docs/skladmen.md"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/local-wms.svg" width="252" alt="Skladmen WMS — Kotlin / Compose / Room"></a>
+  <a href="docs/maxgram.md"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/local-maxgram.svg" width="252" alt="MAXGRAM — Android fork"></a>
+  <a href="docs/automation.md"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/local-bots.svg" width="252" alt="Python bots — API integrations and SQLite"></a>
+</p>
+
+<details>
+<summary><strong>Inside the local projects</strong></summary>
+
+- **[Skladmen WMS](docs/skladmen.md)** — Kotlin, Compose, and Room; warehouse orders, CSV, barcode lookup, and picking progress.
+- **[MAXGRAM](docs/maxgram.md)** — customization of the open-source Telegram Android client, with upstream attribution.
+- **[Vanta Market](docs/automation.md#vanta-market)** — asynchronous bots, shared SQLite stock, order states, and delivery reconciliation.
+- **[SWAGA BOT](docs/automation.md#swaga-bot)** — Discord voice-room lifecycle, permissions, and restart recovery.
+- **[VK Consent Monitor](docs/automation.md#vk-consent-monitor)** — official API, an explicit allowed-profile list, and state transitions.
+
+</details>
+
+## Tools in my projects
+
+**Web and APIs** &nbsp; TypeScript · React · Next.js · HTML · CSS<br>
+**Automation** &nbsp; Python · asyncio · aiohttp · aiogram · discord.py<br>
+**Android** &nbsp; Kotlin · Java · Compose · Room · Hilt · Coroutines<br>
+**Data and environment** &nbsp; SQLite · IndexedDB · PostgreSQL · Docker Compose · Nginx
+
+I value clear component boundaries, input validation, and durable state. Plans and local prototypes are distinguished from published code. [Explore the engineering decisions (RU) →](docs/code-tour.md)
+
+<br>
+
+<a href="https://github.com/obnqo40?tab=repositories"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/studio/footer.svg" alt="Have a project in mind? Open the relevant repository to discuss it." width="100%"></a>
+
+<p align="center"><a href="docs/projects.md">Project catalog</a> &nbsp; / &nbsp; <a href="docs/demos.md">All demos</a> &nbsp; / &nbsp; <a href="docs/code-tour.md">Code tour</a> &nbsp; / &nbsp; <a href="README.md">Русская версия</a></p>

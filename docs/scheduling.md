@@ -6,7 +6,7 @@
 
 [Демо на Vercel ↗](https://moe-raspisanie.vercel.app/) · [GitHub Pages](https://obnqo40.github.io/Moe-raspisanie/) · [Исходный код](https://github.com/obnqo40/Moe-raspisanie)
 
-![Главная страница проекта «Моё Расписание»](../assets/scheduling.jpg)
+![Главная страница проекта «Моё Расписание»](../assets/studio/cover-schedule.png)
 
 ## Задача
 
