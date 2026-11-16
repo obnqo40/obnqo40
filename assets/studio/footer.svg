@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="172" viewBox="0 0 1200 172" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Let’s build something useful</title><desc id="desc">Open the GitHub repositories to discuss a project.</desc>
+<defs><linearGradient id="foot" x1="0" y1="0" x2="1200" y2="172" gradientUnits="userSpaceOnUse"><stop stop-color="#142c29"/><stop offset=".65" stop-color="#0b141d"/><stop offset="1" stop-color="#16283e"/></linearGradient></defs>
+<rect x="1" y="1" width="1198" height="170" rx="18" fill="url(#foot)" stroke="#30434c"/>
+<text x="36" y="41" fill="#9ed8bf" font-family="'Segoe UI',Arial,sans-serif" font-size="13" font-weight="500" letter-spacing="2.5" >HAVE A PROJECT IN MIND?</text>
+<text x="32" y="112" fill="#edf5f8" font-family="'Segoe UI',Arial,sans-serif" font-size="43" font-weight="700" letter-spacing="-1.5" >LET’S BUILD SOMETHING USEFUL.</text>
+<path d="M1066 121L1130 57M1070 57H1130V117" stroke="#98efc0" stroke-width="3"/>
+<text x="1018" y="149" fill="#91a5b5" font-family="Consolas,monospace" font-size="13" font-weight="400" letter-spacing="1" >@obnqo40</text>
+
+</svg>

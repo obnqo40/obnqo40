@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" fill="none" role="img" aria-labelledby="title desc">
+<title id="title">Dmitry / OBNQO — software portfolio</title><desc id="desc">Web applications, Python automation and Android. The orbital brand graphic moves subtly and respects reduced-motion preferences.</desc>
+<defs>
+<radialGradient id="ambient" cx="0" cy="0" r="1" gradientTransform="translate(968 224) rotate(90) scale(310 410)" gradientUnits="userSpaceOnUse"><stop stop-color="#08765b" stop-opacity=".16"/><stop offset="1" stop-color="#08765b" stop-opacity="0"/></radialGradient>
+<linearGradient id="edge" x1="766" y1="70" x2="1069" y2="379" gradientUnits="userSpaceOnUse"><stop stop-color="#08765b"/><stop offset=".48" stop-color="#3c67a4"/><stop offset="1" stop-color="#08765b" stop-opacity=".15"/></linearGradient>
+<linearGradient id="metal" x1="826" y1="122" x2="1030" y2="339" gradientUnits="userSpaceOnUse"><stop stop-color="#142833"/><stop offset=".18" stop-color="#08765b"/><stop offset=".44" stop-color="#d6e5df"/><stop offset=".72" stop-color="#3c67a4"/><stop offset="1" stop-color="#d6e5df"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" stroke="#cbdad7" stroke-opacity=".5" stroke-width=".7"/></pattern>
+<clipPath id="frame"><rect x="1" y="1" width="1198" height="518" rx="22"/></clipPath>
+</defs>
+<style>
+.orbit { transform-origin: 924px 236px; animation: orbit 32s linear infinite; }
+.beacon { animation: glow 5s ease-in-out infinite; }
+@keyframes orbit { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+@keyframes glow { 0%,100% { opacity: .45; } 50% { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) { .orbit,.beacon { animation: none; } }
+</style>
+<g clip-path="url(#frame)">
+<rect width="1200" height="520" fill="#f4f7f5"/>
+<rect x="688" width="512" height="432" fill="url(#grid)"/>
+<rect width="1200" height="432" fill="url(#ambient)"/>
+<path d="M52 77H600M660 77H1148" stroke="#cbdad7"/>
+<circle cx="58" cy="43" r="5" fill="#08765b" class="beacon"/>
+<text x="76" y="48" fill="#506c76" font-family="'Segoe UI',Arial,sans-serif" font-size="14" font-weight="500" letter-spacing="2.8" >OBNQO / PERSONAL SOFTWARE PORTFOLIO</text>
+<text x="1146" y="48" fill="#506c76" font-family="Consolas,monospace" font-size="14" font-weight="400" letter-spacing="1.8" text-anchor="end">D / 01</text>
+<text x="45" y="209" fill="#142833" font-family="'Segoe UI',Arial,sans-serif" font-size="116" font-weight="800" letter-spacing="-7" >OBNQO</text>
+<text x="54" y="262" fill="#142833" font-family="'Segoe UI',Arial,sans-serif" font-size="29" font-weight="500" letter-spacing="-0.5" >Dmitry / full-stack developer</text>
+<path d="M54 302H111" stroke="#08765b" stroke-width="3"/>
+<text x="54" y="342" fill="#506c76" font-family="'Segoe UI',Arial,sans-serif" font-size="22" font-weight="400" >Interfaces. Integrations. Useful software.</text>
+<text x="54" y="383" fill="#506c76" font-family="'Segoe UI',Arial,sans-serif" font-size="17" font-weight="400" >From a real workflow to a working application.</text>
+<circle cx="924" cy="236" r="178" stroke="#cbdad7" stroke-width="1" stroke-dasharray="3 10"/>
+<ellipse cx="924" cy="236" rx="198" ry="75" transform="rotate(-29 924 236)" stroke="#cbdad7" stroke-width="1.3"/>
+<ellipse cx="924" cy="236" rx="198" ry="75" transform="rotate(29 924 236)" stroke="#cbdad7" stroke-width="1.3"/>
+<path d="M728 235H775M1075 235H1121M924 55V87M924 384V416" stroke="#cbdad7" stroke-width="1.5"/>
+<circle cx="924" cy="236" r="135" fill="#d6e8df" stroke="url(#edge)" stroke-width="2"/>
+<circle cx="924" cy="236" r="107" stroke="url(#metal)" stroke-width="33"/>
+<circle cx="924" cy="236" r="86" fill="#f4f7f5" stroke="#cbdad7" stroke-width="1.5"/>
+<path d="M878 275L970 197M878 197L970 275" stroke="#cbdad7" stroke-width="1"/>
+<text x="924" y="246" fill="#08765b" font-family="Consolas,monospace" font-size="36" font-weight="600" letter-spacing="-1" text-anchor="middle">O</text>
+<g class="orbit"><circle cx="924" cy="236" r="160" stroke="url(#edge)" stroke-width="2" stroke-dasharray="150 855"/><circle cx="924" cy="76" r="6" fill="#08765b"/><circle cx="924" cy="76" r="13" fill="#08765b" fill-opacity=".09"/></g>
+<text x="746" y="394" fill="#506c76" font-family="Consolas,monospace" font-size="12" font-weight="400" letter-spacing="1.4" >[ INTERFACE / LOGIC / DATA ]</text>
+<path d="M0 434H1200" stroke="#cbdad7"/>
+<text x="54" y="482" fill="#142833" font-family="'Segoe UI',Arial,sans-serif" font-size="21" font-weight="600" letter-spacing="2" >WEB</text>
+<text x="254" y="482" fill="#142833" font-family="'Segoe UI',Arial,sans-serif" font-size="21" font-weight="600" letter-spacing="2" >AUTOMATION</text>
+<text x="568" y="482" fill="#142833" font-family="'Segoe UI',Arial,sans-serif" font-size="21" font-weight="600" letter-spacing="2" >ANDROID</text>
+<path d="M202 463V487M516 463V487M793 463V487" stroke="#cbdad7"/>
+<text x="1147" y="480" fill="#506c76" font-family="Consolas,monospace" font-size="17" font-weight="400" letter-spacing="1" text-anchor="end">@obnqo40</text>
+</g><rect x="1" y="1" width="1198" height="518" rx="22" stroke="#cbdad7"/>
+<path d="M1 65V23A22 22 0 0 1 23 1H83" stroke="#08765b" stroke-width="2"/>
+
+</svg>
