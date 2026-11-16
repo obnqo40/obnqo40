@@ -1,124 +1,93 @@
-# Dmitry / obnqo40
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/hero-dark.svg">
+  <img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/hero-light.svg" alt="Dmitry / obnqo40 — Full-stack developer. Web, automation, Android." width="100%">
+</picture>
 
-**Full-Stack / Backend Developer**
+# Привет, я Дмитрий
 
-I build practical web applications, API integrations, automation tools, and self-hosted services.
+**Full-stack / Backend Developer** · веб-приложения, Python-автоматизация и Android.
 
-`TypeScript` · `Python` · `Next.js` · `Linux` · `Docker`
+Превращаю повседневные задачи в приложения: от записи на услугу и школьного расписания до складской комплектации и управления сообществом. В проектах работаю с интерфейсом, данными и интеграциями; отдельно уделяю внимание обработке ошибок и понятной документации.
 
-[Selected projects](#selected-projects) · [Engineering areas](#engineering-areas) · [Current focus](#current-focus)
+**[Проекты](#избранные-проекты)** &nbsp; / &nbsp; **[Разборы разработок](#за-пределами-веба)** &nbsp; / &nbsp; **[Весь каталог](docs/projects.md)** &nbsp; / &nbsp; **[English](README.en.md)**
 
-## About
+## Избранные проекты
 
-I work across backend development, frontend implementation, and the operational layer needed to run software reliably.
+### 01 / Business Leads
 
-My strongest projects turn real workflows into maintainable systems: lead collection with multiple delivery channels, scheduling tools, business-facing interfaces, and small infrastructure labs.
+**Сайт для малого бизнеса с приёмом заявок в несколько каналов.**
 
-I care about clear boundaries, server-side validation, configuration-driven design, safe handling of secrets, and documentation that makes a project straightforward to operate.
+Один конфиг задаёт услуги, цены, контакты и оформление. Сервер проверяет заявку и параллельно передаёт её в подключённые Telegram, MAX, email и Google Sheets. У каждого адаптера свой результат и таймаут: сбой одного канала не прерывает остальные.
 
-## Selected projects
+`Next.js` `React` `TypeScript` `API Routes`
 
-### [business-leads-template](https://github.com/obnqo40/business-leads-template)
+**[Открыть демо ↗](https://business-leads-template.vercel.app/)** · [Код](https://github.com/obnqo40/business-leads-template) · [Архитектура и решения](docs/business-leads.md)
 
-A configurable Next.js template for service-business websites with a production-oriented lead intake flow.
+<details>
+  <summary>Посмотреть интерфейс</summary>
+  <p><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/business-leads.jpg" alt="Главная страница демо Business Leads — Fresh Cut" width="100%"></p>
+</details>
 
-- Centralized business content and service configuration for efficient adaptation.
-- Server-side lead validation, including required-field and honeypot checks.
-- Independent delivery adapters for Telegram, MAX, email, and Google Sheets.
-- Per-channel delivery reporting so one integration failure does not hide the others.
-- Privacy and deployment guidance included in the project documentation.
+### 02 / Моё Расписание
 
-**Stack:** Next.js, React, TypeScript, API routes, external service integrations
+**Электронный помощник для управления школьным расписанием.**
 
-[Repository](https://github.com/obnqo40/business-leads-template) · [Live demo](https://business-leads-template.vercel.app/)
+Редактирование уроков, проверка пересечений, генерация расписания, импорт и экспорт Excel. Учебная V1 работает с локальными данными в браузере и PWA-оболочкой. Серверная авторизация относится к планируемой V2.
 
-### [Moe Raspisanie](https://github.com/obnqo40/Moe-raspisanie)
+`JavaScript` `IndexedDB` `Excel` `PWA`
 
-A browser-based school scheduling prototype, preserved as a transparent educational V1.
+**[Открыть демо ↗](https://moe-raspisanie.vercel.app/)** · [Код](https://github.com/obnqo40/Moe-raspisanie) · [Разбор V1](docs/scheduling.md)
 
-- Schedule creation and editing with conflict checks.
-- Import and export workflows for spreadsheet data.
-- Installable PWA behavior for convenient local use.
-- Public data is empty and remote synchronization is disabled in the sanitized release.
-- A server-authoritative V2 is planned to replace the client-side trust model.
+<details>
+  <summary>Посмотреть интерфейс</summary>
+  <p><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/scheduling.jpg" alt="Главная страница демо Моё Расписание" width="100%"></p>
+</details>
 
-**Stack:** JavaScript, HTML, CSS, browser storage, PWA
+### 03 / ЗАО «МЫС»
 
-[Repository](https://github.com/obnqo40/Moe-raspisanie) · [Live demo](https://moe-raspisanie.vercel.app/)
+**Многостраничный интерфейс промышленного предприятия.**
 
-### [zao_mys](https://github.com/obnqo40/zao_mys)
+Каталог продукции, страницы компании и качества, новости, контакты и документы. Общие стили и сценарии объединяют страницы; галереи, мобильная навигация и анимации помогают работать с насыщенным контентом.
 
-A multi-page frontend implementation and redesign exercise for an industrial website.
+`HTML` `CSS` `JavaScript` `Alpine.js` `Tailwind CSS`
 
-- Responsive pages for products, company information, news, contacts, and legal content.
-- Reusable styling and browser-side interactions across the site.
-- Media galleries and document-oriented content organization.
+**[Посмотреть проект ↗](https://github.com/obnqo40/zao_mys#readme)** · [Страницы и запуск](https://github.com/obnqo40/zao_mys#запуск)
 
-**Stack:** HTML, CSS, JavaScript
+### 04 / Full-stack Lab
 
-[Repository](https://github.com/obnqo40/zao_mys)
+**Небольшая лаборатория контейнеров и балансировки запросов.**
 
-### [full-stack-lab](https://github.com/obnqo40/full-stack-lab)
+Nginx направляет запросы к двум контейнерам со статическими HTML-страницами. PostgreSQL запущен отдельным сервисом для дальнейших экспериментов. Схема, запуск и границы учебного стенда описаны в README.
 
-A compact infrastructure lab for learning service composition and request routing.
+`Docker Compose` `Nginx` `PostgreSQL`
 
-- Two backend services behind an Nginx upstream.
-- PostgreSQL included as a separate service.
-- Docker Compose used to define the local environment.
+**[Открыть лабораторию ↗](https://github.com/obnqo40/full-stack-lab#readme)**
 
-**Stack:** Docker Compose, Nginx, PostgreSQL, HTML
+## За пределами веба
 
-[Repository](https://github.com/obnqo40/full-stack-lab)
+Локальные разработки, для которых здесь опубликованы описания устройства и реализованных сценариев.
 
-## Engineering areas
+| Проект | Что в нём интересно | Разбор |
+| :--- | :--- | :--- |
+| **Skladmen WMS** | Android-приложение для комплектации заказов: Room, CSV, поиск по штрихкоду, архив | [Kotlin / Compose →](docs/skladmen.md) |
+| **MAXGRAM** | Кастомизация открытого Telegram Android: темы, навигация, локальные инструменты | [Android fork →](docs/maxgram.md) |
+| **Vanta Market** | Асинхронные боты, общий остаток в SQLite, состояния заказа и сверка доставки | [Python / SQLite →](docs/automation.md#vanta-market) |
+| **SWAGA BOT** | Жизненный цикл голосовых комнат Discord, права доступа и восстановление после перезапуска | [Python / Discord →](docs/automation.md#swaga-bot) |
+| **VK Consent Monitor** | Мониторинг разрешённых профилей через официальный API и обработка переходов состояния | [Python / API →](docs/automation.md#vk-consent-monitor) |
 
-### Backend and integrations
+## Инструменты в моих проектах
 
-- HTTP APIs and server-side request handling.
-- Input validation and predictable error responses.
-- External API and messaging integrations.
-- Configuration boundaries for reusable applications.
-- Python automation and workflow tooling.
+| Направление | Технологии | Где посмотреть |
+| :--- | :--- | :--- |
+| Веб и API | TypeScript, React, Next.js, HTML, CSS | [Business Leads](https://github.com/obnqo40/business-leads-template) · [Моё Расписание](https://github.com/obnqo40/Moe-raspisanie) |
+| Автоматизация | Python, asyncio, aiohttp, aiogram, discord.py | [Разбор ботов](docs/automation.md) |
+| Android | Kotlin, Java, Compose, Room, Hilt, Coroutines | [Skladmen](docs/skladmen.md) · [MAXGRAM](docs/maxgram.md) |
+| Данные и окружение | SQLite, IndexedDB, PostgreSQL, Docker Compose, Nginx | [Лаборатория](https://github.com/obnqo40/full-stack-lab) |
 
-### Frontend
+В разработке для меня важны понятные границы компонентов, проверка входных данных, сохранность состояния и честное описание ограничений. Планы и локальные прототипы в этом портфолио помечены отдельно от опубликованного кода.
 
-- Responsive, accessible interfaces.
-- React and Next.js application development.
-- Practical forms, dashboards, and business-facing pages.
-- Progressive enhancement and PWA fundamentals.
+---
 
-### Linux and operations
+**Хотите обсудить проект?** Начните с [репозитория](https://github.com/obnqo40?tab=repositories) и его Issues.
 
-- Linux service deployment and troubleshooting.
-- Docker Compose environments and container networking.
-- Nginx routing and reverse-proxy fundamentals.
-- Environment configuration and secrets hygiene.
-- Backup, recovery, and operational documentation.
-
-## How I work
-
-- Start with the real workflow and make system boundaries explicit.
-- Prefer small, understandable components over hidden complexity.
-- Validate inputs at trust boundaries and keep credentials out of source control.
-- Treat deployment and recovery steps as part of the implementation.
-- Document limitations honestly and make the next engineering step visible.
-
-## Current focus
-
-- Preparing a sanitized case study of a Python automation service migration from Windows to Ubuntu.
-- Documenting a self-hosted Linux environment with an emphasis on reproducible operations.
-- Designing a server-authoritative second version of the scheduling application.
-- Strengthening testing, observability, and failure handling in integration-heavy projects.
-
-## Technology snapshot
-
-| Area | Tools and practices |
-| --- | --- |
-| Backend | TypeScript, Python, Next.js API routes, HTTP integrations |
-| Frontend | React, Next.js, JavaScript, HTML, CSS |
-| Data | PostgreSQL, Google Sheets integrations, browser storage |
-| Operations | Linux, Docker Compose, Nginx, Git, environment management |
-
-## Contact
-
-The best place to follow my work or open a project discussion is [GitHub](https://github.com/obnqo40).
+<sub>Ещё работы и учебные эксперименты — в <a href="docs/projects.md">полном каталоге</a>.</sub>
