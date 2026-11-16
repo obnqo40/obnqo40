@@ -9,59 +9,56 @@
 
 Превращаю повседневные задачи в приложения: от записи на услугу и школьного расписания до складской комплектации и управления сообществом. В проектах работаю с интерфейсом, данными и интеграциями; отдельно уделяю внимание обработке ошибок и понятной документации.
 
-**[Проекты](#избранные-проекты)** &nbsp; / &nbsp; **[Разборы разработок](#за-пределами-веба)** &nbsp; / &nbsp; **[Весь каталог](docs/projects.md)** &nbsp; / &nbsp; **[English](README.en.md)**
+**[Демо](#открыть-в-браузере)** &nbsp; / &nbsp; **[Проекты](#избранные-проекты)** &nbsp; / &nbsp; **[Разборы](#за-пределами-веба)** &nbsp; / &nbsp; **[Каталог](docs/projects.md)** &nbsp; / &nbsp; **[English](README.en.md)**
+
+## Открыть в браузере
+
+**[Business Leads ↗](https://business-leads-template.vercel.app/)** &nbsp; · &nbsp; **[ЗАО «МЫС» ↗](https://obnqo40.github.io/zao_mys/)** &nbsp; · &nbsp; **[Моё Расписание ↗](https://moe-raspisanie.vercel.app/)**
+
+<sub><a href="docs/demos.md">Все адреса и что посмотреть в каждом демо</a> · <a href="docs/code-tour.md">Маршрут по коду</a></sub>
 
 ## Избранные проекты
 
-### 01 / Business Leads
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 / Business Leads</h3>
+      <a href="https://business-leads-template.vercel.app/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/business-leads.jpg" alt="Демо Business Leads — конфигурация Fresh Cut" width="100%"></a>
+      <p><strong>От выбора услуги до заявки владельцу.</strong></p>
+      <p>Сайт услуг с единым конфигом, серверной проверкой данных и независимой доставкой в Telegram, MAX, email и Google Sheets.</p>
+      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code></p>
+      <p><strong><a href="https://business-leads-template.vercel.app/">Демо ↗</a></strong> · <a href="https://github.com/obnqo40/business-leads-template">Код</a> · <a href="docs/business-leads.md">Разбор</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 / ЗАО «МЫС»</h3>
+      <a href="https://obnqo40.github.io/zao_mys/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/zao-mys.jpg" alt="Демо промышленного сайта ЗАО МЫС" width="100%"></a>
+      <p><strong>Промышленный контент в понятном интерфейсе.</strong></p>
+      <p>Многостраничный сайт: каталог продукции, галереи, страницы компании, качества, новостей и контактов.</p>
+      <p><code>HTML / CSS</code> <code>JavaScript</code> <code>Alpine.js</code></p>
+      <p><strong><a href="https://obnqo40.github.io/zao_mys/">Демо ↗</a></strong> · <a href="https://github.com/obnqo40/zao_mys">Код</a> · <a href="docs/zao-mys.md">Разбор</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03 / Моё Расписание</h3>
+      <a href="https://moe-raspisanie.vercel.app/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/scheduling.jpg" alt="Демо приложения Моё Расписание" width="100%"></a>
+      <p><strong>Школьное расписание и работа с Excel.</strong></p>
+      <p>Уроки, проверка пересечений, генерация и локальное хранение. Учебная V1 с PWA-оболочкой; серверная авторизация запланирована для V2.</p>
+      <p><code>JavaScript</code> <code>IndexedDB</code> <code>PWA</code></p>
+      <p><strong><a href="https://moe-raspisanie.vercel.app/">Демо ↗</a></strong> · <a href="https://github.com/obnqo40/Moe-raspisanie">Код</a> · <a href="docs/scheduling.md">Разбор</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04 / Full-stack Lab</h3>
+      <a href="https://github.com/obnqo40/full-stack-lab#readme"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/full-stack-lab.svg" alt="Схема лаборатории: Nginx, два контейнера со страницами и отдельный PostgreSQL" width="100%"></a>
+      <p><strong>Несколько сервисов в одном окружении.</strong></p>
+      <p>Nginx распределяет запросы между двумя контейнерами со статическими страницами. PostgreSQL — отдельный сервис учебного стенда.</p>
+      <p><code>Docker Compose</code> <code>Nginx</code> <code>PostgreSQL</code></p>
+      <p><strong><a href="https://github.com/obnqo40/full-stack-lab#запуск">Запуск локально →</a></strong> · <a href="https://github.com/obnqo40/full-stack-lab">Код</a></p>
+    </td>
+  </tr>
+</table>
 
-**Сайт для малого бизнеса с приёмом заявок в несколько каналов.**
-
-Один конфиг задаёт услуги, цены, контакты и оформление. Сервер проверяет заявку и параллельно передаёт её в подключённые Telegram, MAX, email и Google Sheets. У каждого адаптера свой результат и таймаут: сбой одного канала не прерывает остальные.
-
-`Next.js` `React` `TypeScript` `API Routes`
-
-**[Открыть демо ↗](https://business-leads-template.vercel.app/)** · [Код](https://github.com/obnqo40/business-leads-template) · [Архитектура и решения](docs/business-leads.md)
-
-<details>
-  <summary>Посмотреть интерфейс</summary>
-  <p><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/business-leads.jpg" alt="Главная страница демо Business Leads — Fresh Cut" width="100%"></p>
-</details>
-
-### 02 / Моё Расписание
-
-**Электронный помощник для управления школьным расписанием.**
-
-Редактирование уроков, проверка пересечений, генерация расписания, импорт и экспорт Excel. Учебная V1 работает с локальными данными в браузере и PWA-оболочкой. Серверная авторизация относится к планируемой V2.
-
-`JavaScript` `IndexedDB` `Excel` `PWA`
-
-**[Открыть демо ↗](https://moe-raspisanie.vercel.app/)** · [Код](https://github.com/obnqo40/Moe-raspisanie) · [Разбор V1](docs/scheduling.md)
-
-<details>
-  <summary>Посмотреть интерфейс</summary>
-  <p><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/scheduling.jpg" alt="Главная страница демо Моё Расписание" width="100%"></p>
-</details>
-
-### 03 / ЗАО «МЫС»
-
-**Многостраничный интерфейс промышленного предприятия.**
-
-Каталог продукции, страницы компании и качества, новости, контакты и документы. Общие стили и сценарии объединяют страницы; галереи, мобильная навигация и анимации помогают работать с насыщенным контентом.
-
-`HTML` `CSS` `JavaScript` `Alpine.js` `Tailwind CSS`
-
-**[Посмотреть проект ↗](https://github.com/obnqo40/zao_mys#readme)** · [Страницы и запуск](https://github.com/obnqo40/zao_mys#запуск)
-
-### 04 / Full-stack Lab
-
-**Небольшая лаборатория контейнеров и балансировки запросов.**
-
-Nginx направляет запросы к двум контейнерам со статическими HTML-страницами. PostgreSQL запущен отдельным сервисом для дальнейших экспериментов. Схема, запуск и границы учебного стенда описаны в README.
-
-`Docker Compose` `Nginx` `PostgreSQL`
-
-**[Открыть лабораторию ↗](https://github.com/obnqo40/full-stack-lab#readme)**
+**Любите разбираться в устройстве?** [Начните с API заявок, генератора расписания и общей логики страниц →](docs/code-tour.md)
 
 ## За пределами веба
 

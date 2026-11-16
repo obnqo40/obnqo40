@@ -4,7 +4,7 @@
 
 **Учебное веб-приложение для работы со школьным расписанием.**
 
-[Демо ↗](https://moe-raspisanie.vercel.app/) · [Исходный код](https://github.com/obnqo40/Moe-raspisanie)
+[Демо на Vercel ↗](https://moe-raspisanie.vercel.app/) · [GitHub Pages](https://obnqo40.github.io/Moe-raspisanie/) · [Исходный код](https://github.com/obnqo40/Moe-raspisanie)
 
 ![Главная страница проекта «Моё Расписание»](../assets/scheduling.jpg)
 
@@ -36,5 +36,9 @@ flowchart LR
 ## Следующий шаг
 
 В README проекта описано направление V2: аутентифицированный backend API, серверные права доступа и PostgreSQL. Это план, который ещё не реализован в опубликованной V1.
+
+## Точки входа в код
+
+Основные сценарии собраны в [`dashboard.js`](https://github.com/obnqo40/Moe-raspisanie/blob/main/dashboard.js); PWA-кэш описан в [`service-worker.js`](https://github.com/obnqo40/Moe-raspisanie/blob/main/service-worker.js). Есть и короткий [маршрут по коду](code-tour.md#2-как-браузер-работает-с-расписанием).
 
 **Стек:** JavaScript, HTML, CSS, IndexedDB, SheetJS/XLSX, PWA.

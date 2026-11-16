@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none" role="img" aria-labelledby="title desc">
+  <title id="title">Full-stack Lab — Docker Compose</title>
+  <desc id="desc">Nginx routes incoming requests to backend1 and backend2, each serving a static HTML page. PostgreSQL runs as a separate service.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse"><stop stop-color="#14263A"/><stop offset="1" stop-color="#0B1420"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#A4BED0" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="675" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="675" rx="16" fill="url(#grid)"/>
+  <circle cx="64" cy="62" r="5" fill="#83E4CF"/>
+  <text x="84" y="69" fill="#A7BAC9" font-family="'Segoe UI',Arial,sans-serif" font-size="22" letter-spacing="4">DOCKER COMPOSE / LEARNING LAB</text>
+  <text x="58" y="154" fill="#F1F6FC" font-family="'Segoe UI',Arial,sans-serif" font-size="54" font-weight="700">One request. Two destinations.</text>
+  <text x="62" y="200" fill="#A7BAC9" font-family="'Segoe UI',Arial,sans-serif" font-size="25">A small environment for understanding service routing.</text>
+  <rect x="62" y="305" width="198" height="100" rx="14" fill="#1C334A" stroke="#46627D" stroke-width="2"/>
+  <text x="161" y="347" fill="#E1EAF2" font-family="Consolas,monospace" font-size="27" text-anchor="middle">:8080</text>
+  <text x="161" y="379" fill="#A7BAC9" font-family="'Segoe UI',Arial,sans-serif" font-size="20" text-anchor="middle">HTTP request</text>
+  <path d="M260 355H356M356 355L343 347M356 355L343 363" stroke="#83E4CF" stroke-width="3"/>
+  <rect x="358" y="305" width="244" height="100" rx="14" fill="#163D39" stroke="#83E4CF" stroke-width="2"/>
+  <text x="480" y="347" fill="#C9F2E8" font-family="Consolas,monospace" font-size="28" text-anchor="middle">nginx</text>
+  <text x="480" y="379" fill="#9DCABD" font-family="'Segoe UI',Arial,sans-serif" font-size="20" text-anchor="middle">reverse proxy</text>
+  <path d="M602 355H669V285H750M669 355V428H750M750 285L737 277M750 285L737 293M750 428L737 420M750 428L737 436" stroke="#83E4CF" stroke-width="3"/>
+  <rect x="752" y="239" width="345" height="93" rx="14" fill="#1C334A" stroke="#46627D" stroke-width="2"/>
+  <text x="778" y="277" fill="#E1EAF2" font-family="Consolas,monospace" font-size="25">backend1</text>
+  <text x="778" y="309" fill="#A7BAC9" font-family="'Segoe UI',Arial,sans-serif" font-size="20">Nginx + static HTML</text>
+  <rect x="752" y="382" width="345" height="93" rx="14" fill="#1C334A" stroke="#46627D" stroke-width="2"/>
+  <text x="778" y="420" fill="#E1EAF2" font-family="Consolas,monospace" font-size="25">backend2</text>
+  <text x="778" y="452" fill="#A7BAC9" font-family="'Segoe UI',Arial,sans-serif" font-size="20">Nginx + static HTML</text>
+  <rect x="62" y="535" width="1035" height="83" rx="14" stroke="#486185" stroke-width="2" stroke-dasharray="7 6"/>
+  <text x="88" y="584" fill="#B7CBE5" font-family="Consolas,monospace" font-size="26">PostgreSQL</text>
+  <text x="350" y="584" fill="#94AAC0" font-family="'Segoe UI',Arial,sans-serif" font-size="23">Standalone service / not connected to the pages</text>
+</svg>

@@ -1,4 +1,4 @@
-[← Профиль](https://github.com/obnqo40) · [English](../README.en.md)
+[← Профиль](https://github.com/obnqo40) · [Все демо](demos.md) · [Маршрут по коду](code-tour.md) · [English](../README.en.md)
 
 # Каталог проектов
 
@@ -9,8 +9,8 @@
 | Проект | Задача и реализация | Доступ |
 | :--- | :--- | :--- |
 | **Business Leads** | Конфигурируемый сайт услуг с API приёма заявок и независимыми каналами доставки | [Код](https://github.com/obnqo40/business-leads-template) · [Демо](https://business-leads-template.vercel.app/) · [Разбор](business-leads.md) |
-| **Моё Расписание** | Школьное расписание, проверка пересечений, Excel и локальное хранение; учебная V1 | [Код](https://github.com/obnqo40/Moe-raspisanie) · [Демо](https://moe-raspisanie.vercel.app/) · [Разбор](scheduling.md) |
-| **ЗАО «МЫС»** | Многостраничный frontend промышленного сайта, каталог, галереи и документы | [Код и запуск](https://github.com/obnqo40/zao_mys#readme) |
+| **Моё Расписание** | Школьное расписание, проверка пересечений, Excel и локальное хранение; учебная V1 | [Код](https://github.com/obnqo40/Moe-raspisanie) · [Vercel](https://moe-raspisanie.vercel.app/) · [GitHub Pages](https://obnqo40.github.io/Moe-raspisanie/) · [Разбор](scheduling.md) |
+| **ЗАО «МЫС»** | Многостраничный frontend промышленного сайта, каталог, галереи и документы | [Демо](https://obnqo40.github.io/zao_mys/) · [Код](https://github.com/obnqo40/zao_mys) · [Разбор](zao-mys.md) |
 
 ## Android
 

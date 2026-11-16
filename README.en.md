@@ -9,16 +9,50 @@
 
 I turn everyday workflows into applications: service bookings, school schedules, warehouse picking, and community tools. My projects connect interfaces, data, and external APIs, with attention to failure handling and useful documentation.
 
-[Русская версия](README.md) · [Project catalog](docs/projects.md)
+[Русская версия](README.md) · [Project catalog](docs/projects.md) · [Code tour (RU)](docs/code-tour.md)
+
+## Explore live demos
+
+**[Business Leads ↗](https://business-leads-template.vercel.app/)** · **[ZAO MYS ↗](https://obnqo40.github.io/zao_mys/)** · **[Moe Raspisanie ↗](https://moe-raspisanie.vercel.app/)**
+
+[All verified addresses and alternate hosting (RU)](docs/demos.md)
 
 ## Selected public projects
 
-| Project | What it demonstrates | Explore |
-| :--- | :--- | :--- |
-| **Business Leads** | Configurable Next.js website; server-side lead validation; independent Telegram, MAX, email, and Google Sheets adapters with timeouts | [Source](https://github.com/obnqo40/business-leads-template) · [Demo](https://business-leads-template.vercel.app/) · [Case study (RU)](docs/business-leads.md) |
-| **Moe Raspisanie** | School scheduling, conflict checks, Excel import/export, IndexedDB, and a PWA shell. Educational V1; server authentication is planned for V2 | [Source](https://github.com/obnqo40/Moe-raspisanie) · [Demo](https://moe-raspisanie.vercel.app/) · [Case study (RU)](docs/scheduling.md) |
-| **ZAO MYS** | Multi-page industrial website interface with a product catalog, galleries, responsive navigation, and shared interactions | [Source and setup](https://github.com/obnqo40/zao_mys#readme) |
-| **Full-stack Lab** | Nginx load balancing across two static page containers; a separate PostgreSQL service for experiments | [Source and architecture](https://github.com/obnqo40/full-stack-lab#readme) |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01 / Business Leads</h3>
+      <a href="https://business-leads-template.vercel.app/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/business-leads.jpg" alt="Business Leads demo: Fresh Cut configuration" width="100%"></a>
+      <p>Configurable service-business website with server-side validation and independent delivery adapters for Telegram, MAX, email, and Google Sheets.</p>
+      <p><code>Next.js</code> <code>React</code> <code>TypeScript</code></p>
+      <p><strong><a href="https://business-leads-template.vercel.app/">Live demo ↗</a></strong> · <a href="https://github.com/obnqo40/business-leads-template">Source</a> · <a href="docs/business-leads.md">Case study (RU)</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02 / ZAO MYS</h3>
+      <a href="https://obnqo40.github.io/zao_mys/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/zao-mys.jpg" alt="ZAO MYS industrial website demo" width="100%"></a>
+      <p>Multi-page industrial website frontend with a product catalog, image galleries, company information, quality documents, and shared interactions.</p>
+      <p><code>HTML / CSS</code> <code>JavaScript</code> <code>Alpine.js</code></p>
+      <p><strong><a href="https://obnqo40.github.io/zao_mys/">Live demo ↗</a></strong> · <a href="https://github.com/obnqo40/zao_mys">Source</a> · <a href="docs/zao-mys.md">Case study (RU)</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03 / Moe Raspisanie</h3>
+      <a href="https://moe-raspisanie.vercel.app/"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/scheduling.jpg" alt="Moe Raspisanie scheduling application demo" width="100%"></a>
+      <p>School schedules, conflict checks, Excel import/export, IndexedDB, and a PWA shell. Educational V1; server authentication is planned for V2.</p>
+      <p><code>JavaScript</code> <code>IndexedDB</code> <code>PWA</code></p>
+      <p><strong><a href="https://moe-raspisanie.vercel.app/">Live demo ↗</a></strong> · <a href="https://obnqo40.github.io/Moe-raspisanie/">GitHub Pages</a> · <a href="https://github.com/obnqo40/Moe-raspisanie">Source</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04 / Full-stack Lab</h3>
+      <a href="https://github.com/obnqo40/full-stack-lab#readme"><img src="https://raw.githubusercontent.com/obnqo40/obnqo40/main/assets/full-stack-lab.svg" alt="Lab diagram: Nginx routes requests to two static-page containers; PostgreSQL runs separately" width="100%"></a>
+      <p>Nginx load balancing across two static-page containers and a separate PostgreSQL service. A local Docker Compose learning environment.</p>
+      <p><code>Docker Compose</code> <code>Nginx</code> <code>PostgreSQL</code></p>
+      <p><strong><a href="https://github.com/obnqo40/full-stack-lab#запуск">Local setup →</a></strong> · <a href="https://github.com/obnqo40/full-stack-lab">Source</a></p>
+    </td>
+  </tr>
+</table>
 
 ## Local development case studies
 

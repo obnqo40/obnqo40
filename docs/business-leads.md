@@ -39,4 +39,8 @@ flowchart LR
 
 Fresh Cut — демонстрационная конфигурация. Работу внешних каналов нужно проверять с настройками конкретного развёртывания. В текущей архитектуре нет постоянной очереди заявок, автоматической повторной доставки, CRM, авторизации или базы лидов. Honeypot помогает отсекать простые автоматические отправки; отдельного ограничения частоты запросов в коде нет.
 
+## Точки входа в код
+
+[`POST /api/leads`](https://github.com/obnqo40/business-leads-template/blob/main/app/api/leads/route.ts) → [`валидация`](https://github.com/obnqo40/business-leads-template/blob/main/src/server/lead.schema.ts) → [`доставка`](https://github.com/obnqo40/business-leads-template/blob/main/src/server/delivery.ts). Полный [маршрут по коду](code-tour.md#1-как-заявка-проходит-через-сервер) начинается с конфига и формы.
+
 **Стек:** Next.js App Router, React, TypeScript, Tailwind CSS, HTTP API.
